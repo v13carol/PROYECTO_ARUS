@@ -10,7 +10,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+/*<<<<<<< Updated upstream*/
 
         System.out.print ("primer cambio prueba 1");
+/*=======
+>>>>>>> Stashed changes*/
+
+        System.out.print ("segundo cambio prueba 2");
     }
 }
