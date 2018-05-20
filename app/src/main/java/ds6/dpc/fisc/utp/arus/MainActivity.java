@@ -17,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
 >>>>>>> Stashed changes*/
 
         System.out.print ("segundo cambio prueba 2");
+
+        System.out.print ("Commit 3 prueba 3");
     }
 }
