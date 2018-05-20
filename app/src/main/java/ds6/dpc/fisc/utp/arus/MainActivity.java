@@ -9,7 +9,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-            // CAMBIO UNO
-        System.out.print("hola mundo!! 1");
+
+        //mensaje de renee
+
     }
 }
