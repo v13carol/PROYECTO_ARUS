@@ -18,6 +18,17 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
+                                      <entry key="backgroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="63" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundClipArt">
                                         <value>
                                           <PersistentState>
@@ -34,8 +45,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="259" />
-                                                <entry key="trimmed" value="true" />
+                                                <entry key="scalingPercent" value="72" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -58,8 +68,37 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="backgroundImage" value="C:\Users\Carolina\Documents\PROYECTO_ARUS\app\src\main\res\drawable\arus-icono.jpg" />
-                                      <entry key="foregroundImage" value="C:\Users\Carolina\Documents\PROYECTO_ARUS\app\src\main\res\drawable\arus_icono.jpg" />
+                                      <entry key="backgroundImage" value="C:\Users\Carolina\Documents\PROYECTO_ARUS\app\src\main\res\drawable\logoverde.png" />
+                                      <entry key="foregroundImage" value="C:\Users\Carolina\Documents\PROYECTO_ARUS\app\src\main\res\drawable\logoverde.png" />
+                                      <entry key="legacyIconShape" value="CIRCLE" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="children">
+                                    <map>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="paddingPercent" value="20" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="cropped" value="true" />
+                                      <entry key="dogEared" value="true" />
+                                      <entry key="imageAsset" value="C:\Users\Carolina\Documents\PROYECTO_ARUS\app\src\main\res\drawable\logoverde.png" />
                                     </map>
                                   </option>
                                 </PersistentState>
