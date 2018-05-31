@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_conoce"
+            android:icon="@drawable/ic_menu_info"
+            android:title="Conocer las 3R" />
+        <item
+            android:id="@+id/nav_normal"
+            android:icon="@drawable/ic_menu_delete"
+            android:title="Desechos Normales" />
+        <item
+            android:id="@+id/nav_especial"
+            android:icon="@drawable/ic_menu_delete"
+            android:title="Desechos Especiales" />
+        <item
+            android:id="@+id/nav_zona"
+            android:icon="@drawable/ic_menu_location"
+            android:title="Zonas de horarios" />
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_menu_maps"
+            android:title="Ubicación de Reciclado" />
+    </group>
+
+</menu>
