@@ -8,11 +8,12 @@
 
 
     <TextView
+        android:id="@+id/contenedor4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/fragment4"
+        android:text="@string/contenedor4"
         android:textAlignment="center"
         android:textSize="30dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 </FrameLayout>

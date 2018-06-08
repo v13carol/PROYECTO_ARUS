@@ -3,9 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment1"
-    android:background="@drawable/circulo" >
+    android:background="@drawable/circulo"
+    tools:context=".Fragment1">
 
-
+    <TextView
+        android:id="@+id/contenedor1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/contenedor1"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
 </FrameLayout>

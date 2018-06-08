@@ -8,15 +8,11 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-
-    <string name="fragment1">Conoce las 3R </string>
-    <string name="fragment2">Desechos Normales </string>
-    <string name="fragment3">Desechos Especiales </string>
-    <string name="fragment4">Zonas Horarias </string>
-    <string name="fragment5">Ubicación de Reciclado </string>
-
-
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="contenedor1">Conoce las 3R</string>
+    <string name="contenedor2">Desechos Normales</string>
+    <string name="contenedor3">Desechos Especiales</string>
+    <string name="contenedor4">Zonas de Horarios</string>
+    <string name="contenedor5">Ubicación de Reciclado</string>
 
 </resources>

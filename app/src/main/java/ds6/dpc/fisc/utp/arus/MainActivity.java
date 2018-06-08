@@ -1,10 +1,9 @@
 package ds6.dpc.fisc.utp.arus;
 
+import android.app.Fragment;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -49,19 +48,21 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        FragmentManager fragmentManager = getSupportFragmentManager();
         if (id == R.id.nav_conoce) {
-            // Handle the camera action
+            fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment1()).commit();
         } else if (id == R.id.nav_normal) {
-
+            fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment2()).commit();
         } else if (id == R.id.nav_especial) {
-
+            fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment3()).commit();
         } else if (id == R.id.nav_zona) {
-
+            fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment4()).commit();
         } else if (id == R.id.nav_ubicacion) {
-
+            fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment5()).commit();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }
