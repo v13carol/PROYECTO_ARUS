@@ -14,5 +14,7 @@
     <string name="contenedor3">Desechos Especiales</string>
     <string name="contenedor4">Zonas de Horarios</string>
     <string name="contenedor5">Ubicación de Reciclado</string>
+    <string name="contenedor6">Sistema Urbano de Reciclaje y Aseo</string>
+
 
 </resources>
