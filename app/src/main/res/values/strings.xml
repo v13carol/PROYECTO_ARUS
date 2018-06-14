@@ -66,6 +66,25 @@
 
     </string>
 
+<string name="DesechosEspeciales">
+    <b>Desechos Especiales</b>
 
+\n\nSon residuos que requieren la adopción de medidas de prevención especiales durante la recogida, el almacenamiento, el transporte, el tratamiento y la deposición del rechazo, tanto dentro como fuera del centro generador, ya que (sin llegar a ser considerados como residuos peligrosos) pueden presentar un riesgo para la salud laboral y pública.
+
+\n\n\t\t\t1. Residuos de construcción y demolición
+
+\n\n\t\t\t2. Residuos clínicos o sanitarios
+
+\n\n\t\t\t3. Vehículos y neumáticos fuera de uso
+
+\n\n\t\t\t4. Lodos de depuradoras
+
+\n\n\t\t\t5. Residuos agrarios
+
+\n\n\t\t\t6. Residuos forestales
+
+\n\n\t\t\t7. Residuos mineros
+
+</string>
 
 </resources>
