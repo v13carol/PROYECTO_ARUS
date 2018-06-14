@@ -16,5 +16,56 @@
     <string name="contenedor5">Ubicación de Reciclado</string>
     <string name="contenedor6">Sistema Urbano de Reciclaje y Aseo</string>
 
+    <!-- Parrafo de 3R -->
+    <string name="tresR">
+       <i> <b>Cononoce las 3R</b> </i>
+        \n\nLa regla de las tres erres, también conocida como las tres erres de la ecología, o simplemente 3R, es una propuesta sobre hábitos de consumo promovidos por la organización ecologista Greenpeace.
+        \n\nLas 3R son: Reducir, Reutilizar y Reciclar. Estas hacen referencia a estrategias para manejar residuos de forma más sustentables con el medio ambiente, y reducir la cantidad de residuos generados.
+
+        \n\n<b>Reducir</b>
+\n\t La reducción puede realizarse en dos niveles:
+        \n       \n\t\t• reducción del consumo de bienes o de energía. Algunas formas de reducir el consumo de estos son:
+\n     \n\t\t• Reducir o eliminar la cantidad de materiales destinados de uso único, como los embalajes.
+\n     \n\t\t• Utilizar aparatos electrodomésticos de forma eficiente, por ejemplo, poner lavadoras y secadoras llenas y no a media carga.
+\n     \n\t\t•	Reducir pérdidas energéticas o de recursos, como desconectar los aparatos eléctricos que no estén en uso, cerrar los grifos mientras se friegan los utensilios de cocina, utilizar un vaso con agua para lavarse los dientes, etc.
+\n     \n\t\t•	Utilizar bolsas de telas en vez de plástico para realizar las compras.
+\n     \n\t\t•	Manejar documentos de forma digital cuando sea posible, para disminuir la cantidad de papel consumida.
+
+
+\n\n\n<b>Reutilizar</b>
+\nConsiste en darle una segunda vida útil a los objetos, a través de la reparación o adaptación de los mismos para un uso diferente. Ejemplos:
+\n\n\t\t•	Utilizar la otra cara de hojas impresas, o imprimir en ambas caras.
+\n\n\t\t•	Rellenar botellas en lugar de desecharlas.
+\n\n\t\t•	Teñir prendas de ropa que tengan manchas y emparchar o zurcir las que tengan rupturas.
+\n\n\t\t•	Utilizar los envases de plástico de productos que se han terminado, para guardar otras cosas.
+
+\n\n\n<b>Reciclar</b>
+\nEsta es una de las erres más populares, ya que el sistema de consumo actual ha adoptado el uso de envases de materiales reciclables (plásticos y Tetra Pak, sobre todo), pero no biodegradables. Ejemplo:
+\n\n\t\t\t•	El vidrio y la mayoría de plásticos se pueden reciclar. En fábricas, estos materiales se calientan hasta fundirse o derretirse y luego se les da una nueva forma.
+\n\n\t\t\t•	El papel es transformado en pulpa para generar otros materiales similares.
+\n\n\t\t\t•	En la página <a href="http://www.inforeciclaje.com/">aaaa</a> se brinda una guía detallada del reciclaje de otros materiales.
+
+ </string>
+
+    <!-- Parrafo de Desechos Normales -->
+    <string name="DesechosNormales">
+        <b>Desechos Normales</b>
+        \n\n<b>Residuos Domésticos</b>
+\nLos residuos domésticos, también llamados residuos sólidos urbanos, son un tipo de residuo que incluye principalmente basura doméstica y, esporádicamente, productos industriales. Casi siempre son sólidos, algunas veces líquidos (pinturas, productos de limpieza, etc.), y raras veces, gaseosos (humo de chimeneas).
+\n\nLos desechos sólidos, a su vez, se pueden organizar en 5 categorías:
+\n\n\t\t\t•	Biodegradables: Son sobras de alimentos y similares, que no se consideran contaminantes, porque se degradan rápidamente.
+\n\n\t\t\t•	Reciclables: Constituyen los materiales que pueden ser separados para el reciclaje. Entre los principales, tenemos papel, cartón, vidrio, envases plásticos y otros.
+\n\n\t\t\t•	Inertes: Son aquellos residuos de la limpieza y construcción, como polvo, piedras, bloques y ladrillos.
+\n\n\t\t\t•	Compuestos: Generalmente son prendas de vestir y algunos juguetes plásticos.\n•	Peligrosos: Pueden representar un riesgo para la salud y/o el medio ambiente, debido a su composición química. Principalmente son medicamentos, electrodomésticos, fertilizantes, plaguicidas, baterías, pinturas, productos de limpieza, productos para automóviles.
+
+\n\n\nLos desechos peligrosos son difíciles de controlar porque se generan en poca cantidad, pero en muchos lugares. A pesar de esto, se pueden manejar de varias formas:
+\n\n\t\t\t•	Reutilización de productos como la pintura.
+\n\n\t\t\t•	Reciclaje: hasta el 80% de la pintura recogida puede ser mezclada y reprocesada para su uso; de las baterías se pueden recuperar algunos metales.
+\n\n\t\t\t•	Recuperación: los disolventes y diluyentes de las pinturas pueden ser tamizados y mezclados, formando así un compuesto combustible; el aceite de motor usado puede ser recogido para procesarse nuevamente.
+\n\n\t\t\t•	Eliminación segura: para algunos productos, la mejor opción es la eliminación o almacenaje, como es el caso de los pesticidas o las pilas (sólo posible en algunos países).
+
+    </string>
+
+
 
 </resources>
