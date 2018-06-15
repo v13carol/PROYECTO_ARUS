@@ -1,4 +1,4 @@
-package ds6.dpc.fisc.utp.arus;
+package ds6.dpc.fisc.utp.arus.Menu;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,14 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import ds6.dpc.fisc.utp.arus.R;
 
 
-public class Fragment5 extends Fragment {
+public class Fragment2 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment5, container, false);
+        return inflater.inflate(R.layout.fragment_fragment2, container, false);
     }
 }

@@ -1,6 +1,7 @@
-package ds6.dpc.fisc.utp.arus;
+package ds6.dpc.fisc.utp.arus.Menu;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
@@ -10,10 +11,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
+
+import ds6.dpc.fisc.utp.arus.R;
+
 public class MainActivity extends AppCompatActivity
 
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener{
         FragmentManager fragmentManager;
+        MapFragment mapFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +41,9 @@ public class MainActivity extends AppCompatActivity
         fragmentManager = getSupportFragmentManager();
         // Fragmento Home se encuentra la info principal de la app
         fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment6()).commit();
+
+
+
 
     }
 
@@ -61,13 +72,17 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_especial) {
             fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment3()).commit();
         } else if (id == R.id.nav_zona) {
-            fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment4()).commit();
+            fragmentManager.beginTransaction()
+                    .replace(R.id.contenedor , new Fragment4())
+                    .commit();
         } else if (id == R.id.nav_ubicacion) {
             fragmentManager.beginTransaction().replace(R.id.contenedor , new Fragment5()).commit();
-        }
+
+       }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
 }
+

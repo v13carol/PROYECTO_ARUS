@@ -1,17 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment6">
+    tools:context=".Menu.Fragment6">
 
-    <TextView
-        android:id="@+id/contenedor6"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/contenedor6"
-        android:textAlignment="center"
-        android:textSize="30dp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contenedor6"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/imagen1" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:layout_margin="10dp"
+                android:text="@string/visión"
+                android:textAlignment="inherit"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/cont2"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mision"
+                android:textAlignment="inherit"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cont1"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_margin="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valores"
+            android:textAlignment="inherit"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cont3"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:layout_margin="15dp" />
+       </LinearLayout>
+    </ScrollView>
+
+
 
 </FrameLayout>

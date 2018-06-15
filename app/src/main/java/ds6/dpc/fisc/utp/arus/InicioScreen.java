@@ -5,6 +5,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import ds6.dpc.fisc.utp.arus.Menu.MainActivity;
+
 public class InicioScreen extends AppCompatActivity {
 
     @Override
@@ -17,6 +19,7 @@ public class InicioScreen extends AppCompatActivity {
             public void run() {
                 Intent intent = new Intent (InicioScreen.this, MainActivity.class);
                 startActivity(intent);
+                finish();
             }        }, 4000);
     }
 }

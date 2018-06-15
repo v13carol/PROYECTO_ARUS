@@ -8,7 +8,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Titulo de los fragmentos del menú -->
     <string name="contenedor1">Conoce las 3R</string>
     <string name="contenedor2">Desechos Normales</string>
     <string name="contenedor3">Desechos Especiales</string>
@@ -49,8 +49,7 @@
 
     <!-- Parrafo de Desechos Normales -->
     <string name="DesechosNormales">
-        <b>Desechos Normales</b>
-        \n\n<b>Residuos Domésticos</b>
+         <b>Residuos Domésticos</b>
 \nLos residuos domésticos, también llamados residuos sólidos urbanos, son un tipo de residuo que incluye principalmente basura doméstica y, esporádicamente, productos industriales. Casi siempre son sólidos, algunas veces líquidos (pinturas, productos de limpieza, etc.), y raras veces, gaseosos (humo de chimeneas).
 \n\nLos desechos sólidos, a su vez, se pueden organizar en 5 categorías:
 \n\n\t\t\t•	Biodegradables: Son sobras de alimentos y similares, que no se consideran contaminantes, porque se degradan rápidamente.
@@ -67,9 +66,7 @@
     </string>
 
 <string name="DesechosEspeciales">
-    <b>Desechos Especiales</b>
-
-\n\nSon residuos que requieren la adopción de medidas de prevención especiales durante la recogida, el almacenamiento, el transporte, el tratamiento y la deposición del rechazo, tanto dentro como fuera del centro generador, ya que (sin llegar a ser considerados como residuos peligrosos) pueden presentar un riesgo para la salud laboral y pública.
+\nSon residuos que requieren la adopción de medidas de prevención especiales durante la recogida, el almacenamiento, el transporte, el tratamiento y la deposición del rechazo, tanto dentro como fuera del centro generador, ya que (sin llegar a ser considerados como residuos peligrosos) pueden presentar un riesgo para la salud laboral y pública.
 
 \n\n\t\t\t1. Residuos de construcción y demolición
 
@@ -86,5 +83,59 @@
 \n\n\t\t\t7. Residuos mineros
 
 </string>
+
+    <!-- TODO: ZONAS HORARIOS DE LA BASURA-->
+    <string-array name="h_zonas">
+        <item>Zona A</item>
+        <item>Zona B</item>
+        <item>Zona C</item>
+        <item>Zona D</item>
+        <item>Zona E</item>
+    </string-array>
+
+    <!-- TODO: Titulo Zona Horario -->
+    <string name="descripcion">Rutas de Recolección de la Autoridad de Aseo en el Turno Diurno</string>
+
+
+    <!--TODO: FRAGMENT 6 INFO PRINCIPAL-->
+    <string name="mision">Misión</string>
+    <string name="visión">Visión</string>
+    <string name="cont1">
+      Dar a conocer las reglas de como se tiene que reutilizar los desechos que
+        utilizamos y proveer las ubicaciones y horarios donde se encuentran los centros
+        de reutilizacion, los horarios de la AAUD y los distintos tipos de residuos.
+    </string>
+    <string name="cont2">
+         ARUS quiere mejorar la calidad de vida de la población
+        fortalecimiento la conciencia, cultura ambiental y
+        activa participación de todos los sectores de la sociedad.
+    </string>
+    <string name="valores">Valores</string>
+    <string name="cont3">Responsabilidad Ambiental:
+      deber de cada ciudadano proteger y mantener su
+        ambiente en beneficio de sí mismo.\n\n
+        Participación ambiental: colaborar y ayudar en programas o campañas ambientales.\n\n
+        Sensibilidad ambiental: consideración y compasión ante los problemas que presenta el medio ambiente.\n\n
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_zona_b">ZonaBActivity</string>
+    <string name="title_activity_zona_c">ZonaCActivity</string>
+    <string name="title_activity_zona_d">ZonaDActivity</string>
+    <string name="title_activity_zona_e">ZonaEActivity</string>
+    <string name="title_activity_zonas_">Zonas_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!-- fragmento 4 descripcion-->
+    <string name="des4">Aquí podrás encontrar los centros de reciclaje que hay en la ciudad
+    de Panamá con los Botes autorizados del municipio para depositar tus desechos de reciclaje en los
+    puntos más cerca de tu hogar.</string>
+
+    <string name="des5">Dar click a la imagen</string>
+
 
 </resources>

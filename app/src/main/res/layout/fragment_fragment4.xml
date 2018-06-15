@@ -3,16 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment4">
+    tools:context=".Menu.Fragment4">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/contenedor4"
+          android:textAlignment="center"
+          android:textSize="30dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/descripcion"
+          android:textAlignment="center"
+          android:textSize="16dp"
+          android:layout_margin="15dp"
+          android:textStyle="bold" />
+
+      <ListView
+          android:id="@+id/zona"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="15dp"
+          android:divider="@color/colorAccent"
+          android:dividerHeight="3px"/>
+
+  </LinearLayout>
 
 
-    <TextView
-        android:id="@+id/contenedor4"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/contenedor4"
-        android:textAlignment="center"
-        android:textSize="30dp"
-        android:textStyle="bold" />
 
 </FrameLayout>
