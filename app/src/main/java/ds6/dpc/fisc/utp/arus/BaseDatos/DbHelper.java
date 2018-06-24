@@ -14,22 +14,20 @@ import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA5;
 public class DbHelper extends SQLiteOpenHelper
 {
     private SQLiteDatabase db;
+    String tabla = "CREATE TABLE Tarea(Id INTEGER PRIMARY KEY AUTOINCREMENT, Nombre Text, Num_Cliente Text ,Telefono Text ,Cantidad Text, Direccion Text)";
 
     public DbHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
-
-
-
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
         db.execSQL(CREAR_TABLA);
         db.execSQL(CREAR_TABLA2);
         db.execSQL(CREAR_TABLA3);
         db.execSQL(CREAR_TABLA4);
         db.execSQL(CREAR_TABLA5);
+        db.execSQL(tabla);
 
         // INSERTA LOS DATOS A LAS TABLAS
         Tabla_A(db);

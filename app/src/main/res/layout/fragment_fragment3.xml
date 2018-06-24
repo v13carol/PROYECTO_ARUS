@@ -1,42 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/contenedor3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Menu.Fragment3">
-    <!-- TODO: AQUI EDITE DIFERENTE EL TEXTVIEW A COMO LO TENIAS PARA QUE OBSERVES LA DIFERENCIA TE RECOMIENDO QUE LO HAGAS POR TEXTVIEW PARA PODER
-         TODO: EDITAR LOS SUBTITULOS Y EL MARGIN QUE UTILIZAREMOS EN TODOS LOS TEXTVIEW INFORMATIVO: ES 15dp Y PARA SUBTITULOS: 10dp-->
+    tools:context=".Menu.Fragment3">
+
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-         <LinearLayout
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
-
-             <TextView
-              android:id="@+id/contenedor1"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:text="@string/contenedor3"
-              android:textAlignment="center"
-              android:textSize="30dp"
-              android:textStyle="bold" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 
-              <TextView
-                  android:id="@+id/textView"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:text="@string/DesechosEspeciales"
-                  android:textSize="18dp"
-                  android:layout_margin="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contenedor3"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/DesechosEspeciales"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <ImageButton
+                android:id="@+id/formu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="false"
+                android:background="#fffefe"
+                android:cropToPadding="true"
+
+                android:src="@drawable/cir4"
+                android:translationY="10dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/link_for"
+                android:textColor="@color/colorPrimaryDark" />
 
 
         </LinearLayout>
-
     </ScrollView>
-
-    </FrameLayout>
+</FrameLayout>
