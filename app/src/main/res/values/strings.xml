@@ -30,6 +30,7 @@
 
     <!-- TODO: SPINNER DE TIPO DE DESCHO-->
     <string-array name="tipo">
+        <item>Tipos de Desecho </item>
         <item> Residuos de construcción y demolición</item>
         <item>Vehículos y neumáticos fuera de uso</item>
         <item> Residuos agrarios</item>

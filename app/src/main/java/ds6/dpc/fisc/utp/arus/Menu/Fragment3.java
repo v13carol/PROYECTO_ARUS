@@ -20,6 +20,8 @@ public class Fragment3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+
+
         View root = inflater.inflate(R.layout.fragment_fragment3, container, false);
           imageButton = (ImageButton) root.findViewById(R.id.formu);
 

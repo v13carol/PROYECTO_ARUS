@@ -14,7 +14,7 @@ import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA5;
 public class DbHelper extends SQLiteOpenHelper
 {
     private SQLiteDatabase db;
-    String tabla = "CREATE TABLE Tarea(Id INTEGER PRIMARY KEY AUTOINCREMENT, Nombre Text, Num_Cliente Text ,Telefono Text ,Cantidad Text, Direccion Text)";
+    public final static String tabla = "CREATE TABLE Tarea(Id INTEGER PRIMARY KEY AUTOINCREMENT, Nombre Text, Num_Cliente Text ,Telefono Text ,Tipo Text ,Cantidad Text, Direccion Text)";
 
     public DbHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
