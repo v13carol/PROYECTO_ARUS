@@ -24,6 +24,7 @@ public class data {
         this.domingo = domingo;
     }
 
+
     public data()
     {}
 

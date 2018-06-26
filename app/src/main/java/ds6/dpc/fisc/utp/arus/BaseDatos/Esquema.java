@@ -2,7 +2,6 @@ package ds6.dpc.fisc.utp.arus.BaseDatos;
 
 import android.provider.BaseColumns;
 
-import java.util.UUID;
 
 /**
  * Esquema de la base de datos para Tabla Zonas
@@ -23,6 +22,8 @@ public  class Esquema {
        public static final String VIERNES = "viernes";
        public static final String SABADO = "sabado";
        public static final String DOMINGO = "domingo";
+
+
 
        public static final String CREAR_TABLA = " CREATE TABLE  "
                + Zona.TABLE_NAME
@@ -97,7 +98,6 @@ public  class Esquema {
 
 
    }
-
 
 
 }

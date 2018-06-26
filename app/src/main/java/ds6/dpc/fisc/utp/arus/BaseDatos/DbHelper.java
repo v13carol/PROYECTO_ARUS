@@ -4,17 +4,19 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA2;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA3;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA4;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA5;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.CREAR_FORM;
 
 /** Manejador de la BD*/
 public class DbHelper extends SQLiteOpenHelper
 {
     private SQLiteDatabase db;
-    public final static String tabla = "CREATE TABLE Tarea(Id INTEGER PRIMARY KEY AUTOINCREMENT, Nombre Text, Num_Cliente Text ,Telefono Text ,Tipo Text ,Cantidad Text, Direccion Text)";
 
     public DbHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
@@ -27,7 +29,7 @@ public class DbHelper extends SQLiteOpenHelper
         db.execSQL(CREAR_TABLA3);
         db.execSQL(CREAR_TABLA4);
         db.execSQL(CREAR_TABLA5);
-        db.execSQL(tabla);
+        db.execSQL(CREAR_FORM);
 
         // INSERTA LOS DATOS A LAS TABLAS
         Tabla_A(db);
@@ -746,7 +748,7 @@ public class DbHelper extends SQLiteOpenHelper
         values.put(Esquema.Zona.SABADO,"Villa Grecia1 (Alcalde Díaz)");
         values.put(Esquema.Zona.DOMINGO, "Villa Grecia1 (Alcalde Díaz)");
 
-        idRes = db.insert(Esquema.Zona.TABLE_NAME3, null, values );
+        idRes = db.insert(Esquema.Zona.TABLE_NAME4, null, values );
 
 
 
@@ -971,6 +973,7 @@ public class DbHelper extends SQLiteOpenHelper
          db.execSQL("DROP TABLE IF EXISTS "+ Esquema.Zona.TABLE_NAME3);
          db.execSQL("DROP TABLE IF EXISTS "+ Esquema.Zona.TABLE_NAME4);
          db.execSQL("DROP TABLE IF EXISTS "+ Esquema.Zona.TABLE_NAME5);
+         db.execSQL("DROP TABLE IF EXISTS "+ Esquema2.Formulario.TABLE_FORM );
 
           onCreate(db);
 
