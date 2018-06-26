@@ -32,7 +32,7 @@ public class formulario extends AppCompatActivity implements AdapterView.OnItemS
     Spinner tip;
     ArrayAdapter<String> adapter;
     String [] tipo;
-    String des;
+    String des, nom, numero ,telefono , cantidad ,direccion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,23 +87,24 @@ public class formulario extends AppCompatActivity implements AdapterView.OnItemS
 
 
     public void GuardarDatos() {
-        String nom = name.getText().toString();
-        String numero = num.getText().toString();
-        String telefono = tel.getText().toString();
-        String  cantidad = cant.getText().toString();
-        String direccion = dire.getText().toString();
+         nom = name.getText().toString();
+         numero = num.getText().toString();
+         telefono = tel.getText().toString();
+         cantidad = cant.getText().toString();
+         direccion = dire.getText().toString();
 
         DbHelper cnn = new DbHelper(this, DATABASE_NAME, null, DATABASE_VERSION);
 
         SQLiteDatabase db = cnn.getWritableDatabase();
 
             try{
-                    if(db != null && des!= ""){
+                    if(nom != "" && des!= "" && numero !=null && telefono !=null && cantidad !=null && direccion!= null){
 
                 db.execSQL("INSERT INTO "+TABLE_FORM+"("+NOMBRE+","+NUM_CLI+","+TIPO+","+TELEFONO+","+CANTIDAD+","+DIRECCION+
                             " ) VALUES ('"+nom+"','"+numero+"','"+des+"','"+telefono+"','"+cantidad+"','"+direccion+"')");
 
                 Toast.makeText(this, "Datos Almacenados", Toast.LENGTH_SHORT).show();
+                limpiar();
                  db.close();
 
                     }else
@@ -114,6 +115,18 @@ public class formulario extends AppCompatActivity implements AdapterView.OnItemS
 
             }
             catch(SQLException e){Toast.makeText(this,"Error al guardar datos",Toast.LENGTH_SHORT).show();}
+
+    }
+
+    private void limpiar()
+    {
+
+
+        name.setText("");
+        num.setText("");
+        tel.setText("");
+        cant.setText("");
+        dire.setText("");
 
     }
 
