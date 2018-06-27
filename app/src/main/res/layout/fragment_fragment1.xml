@@ -26,6 +26,12 @@
                 android:textStyle="bold" />
 
 
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:src="@drawable/tres_r" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -37,12 +43,19 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#f19655"
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:text="@string/reducir"
                 android:textAlignment="inherit"
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:src="@drawable/reduce" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -58,9 +71,16 @@
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:text="@string/reciclar"
+                android:background="#84d64e"
                 android:textAlignment="inherit"
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="257dp"
+                android:src="@drawable/reciclarimage" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -76,9 +96,16 @@
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:text="@string/reutilizar"
+                android:background="#23d0ef"
                 android:textAlignment="inherit"
                 android:textSize="20dp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:src="@drawable/reutiliza" />
 
             <TextView
                 android:layout_width="wrap_content"
