@@ -137,11 +137,11 @@ Son residuos que requieren la adopción de medidas de prevención especiales dur
     </string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="title_activity_zona_b">ZonaBActivity</string>
-    <string name="title_activity_zona_c">ZonaCActivity</string>
-    <string name="title_activity_zona_d">ZonaDActivity</string>
-    <string name="title_activity_zona_e">ZonaEActivity</string>
-    <string name="title_activity_zonas_">Zonas_Activity</string>
+    <string name="title_activity_zona_b">Zona B</string>
+    <string name="title_activity_zona_c">Zona C</string>
+    <string name="title_activity_zona_d">Zona D </string>
+    <string name="title_activity_zona_e">Zona E</string>
+    <string name="title_activity_zona_a">Zona A</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
