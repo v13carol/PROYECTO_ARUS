@@ -54,7 +54,7 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="195dp"
+                android:layout_height="205dp"
                 android:src="@drawable/reduce" />
 
             <TextView
@@ -79,7 +79,7 @@
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
-                android:layout_height="257dp"
+                android:layout_height="208dp"
                 android:src="@drawable/reciclarimage" />
 
             <TextView
@@ -104,7 +104,7 @@
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="259dp"
+                android:layout_height="220dp"
                 android:src="@drawable/reutiliza" />
 
             <TextView
