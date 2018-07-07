@@ -12,7 +12,6 @@ public class data {
     private String sabado;
     private String domingo;
 
-
     public data(String id,String lunes, String martes, String miercoles, String jueves, String viernes, String sabado, String domingo) {
         this.id = id;
         this.lunes = lunes;
@@ -24,9 +23,7 @@ public class data {
         this.domingo = domingo;
     }
 
-
-    public data()
-    {}
+    public data()  {}
 
     public String getId() {
         return id;

@@ -25,12 +25,12 @@
                 android:textSize="30dp"
                 android:textStyle="bold" />
 
-
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="216dp"
                 android:src="@drawable/tres_r" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -54,7 +54,7 @@
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
-                android:layout_height="205dp"
+                android:layout_height="195dp"
                 android:src="@drawable/reduce" />
 
             <TextView
@@ -68,20 +68,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#84d64e"
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:text="@string/reciclar"
-                android:background="#84d64e"
                 android:textAlignment="inherit"
                 android:textSize="20dp"
                 android:textStyle="bold" />
-
+            
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
-                android:layout_height="208dp"
-                android:src="@drawable/reciclarimage" />
-
+                android:layout_height="257dp"
+                android:src="@drawable/reciclarimage"/>
+            
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -93,10 +93,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#23d0ef"
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:text="@string/reutilizar"
-                android:background="#23d0ef"
                 android:textAlignment="inherit"
                 android:textSize="20dp"
                 android:textStyle="bold" />
@@ -104,8 +104,8 @@
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
-                android:src="@drawable/reutiliza" />
+                android:layout_height="257dp"
+                android:src="@drawable/reutiliza"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -119,8 +119,10 @@
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="40dp"
+                android:layout_margin="20dp"
                 android:src="@drawable/r" />
+
+
         </LinearLayout>
     </ScrollView>
 

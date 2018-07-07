@@ -1,11 +1,10 @@
 package ds6.dpc.fisc.utp.arus;
 
 import android.content.Intent;
-import android.content.ContentValues;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,15 +14,16 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import ds6.dpc.fisc.utp.arus.BaseDatos.DbHelper;
+
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.DATABASE_NAME;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.DATABASE_VERSION;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.CANTIDAD;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.DIRECCION;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.NOMBRE;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.NUM_CLI;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.TABLE_FORM;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.TELEFONO;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.TIPO;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.CANTIDAD;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.DIRECCION;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.NOMBRE;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.NUM_CLI;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.TABLE_FORM;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.TELEFONO;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.TIPO;
 
 
 public class formulario extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
@@ -40,11 +40,11 @@ public class formulario extends AppCompatActivity implements AdapterView.OnItemS
         setContentView(R.layout.activity_formulario);
         btn = (Button) findViewById(R.id.button);
         name = (EditText) findViewById(R.id.editText8);
-         num = (EditText) findViewById(R.id.editText);
-         tel = (EditText) findViewById(R.id.editText3);
+        num = (EditText) findViewById(R.id.editText);
+        tel = (EditText) findViewById(R.id.editText3);
         cant = (EditText) findViewById(R.id.editText2);
         dire = (EditText) findViewById(R.id.editText6);
-         tip = (Spinner)findViewById(R.id.spinner);
+        tip = (Spinner)findViewById(R.id.spinner);
 
         tipo = getResources().getStringArray(R.array.tipo);
         adapter= new ArrayAdapter<String> (this, android.R.layout.simple_spinner_item,tipo);
@@ -54,7 +54,7 @@ public class formulario extends AppCompatActivity implements AdapterView.OnItemS
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               GuardarDatos();
+                GuardarDatos();
             }
         });
     }
@@ -87,34 +87,34 @@ public class formulario extends AppCompatActivity implements AdapterView.OnItemS
 
 
     public void GuardarDatos() {
-         nom = name.getText().toString();
-         numero = num.getText().toString();
-         telefono = tel.getText().toString();
-         cantidad = cant.getText().toString();
-         direccion = dire.getText().toString();
+        nom = name.getText().toString();
+        numero = num.getText().toString();
+        telefono = tel.getText().toString();
+        cantidad = cant.getText().toString();
+        direccion = dire.getText().toString();
 
         DbHelper cnn = new DbHelper(this, DATABASE_NAME, null, DATABASE_VERSION);
 
         SQLiteDatabase db = cnn.getWritableDatabase();
 
-            try{
-                    if(nom != "" && des!= "" && numero !=null && telefono !=null && cantidad !=null && direccion!= null){
+        try{
+            if(nom != "" && des!= "" && numero !=null && telefono !=null && cantidad !=null && direccion!= null){
 
                 db.execSQL("INSERT INTO "+TABLE_FORM+"("+NOMBRE+","+NUM_CLI+","+TIPO+","+TELEFONO+","+CANTIDAD+","+DIRECCION+
-                            " ) VALUES ('"+nom+"','"+numero+"','"+des+"','"+telefono+"','"+cantidad+"','"+direccion+"')");
+                        " ) VALUES ('"+nom+"','"+numero+"','"+des+"','"+telefono+"','"+cantidad+"','"+direccion+"')");
 
                 Toast.makeText(this, "Datos Almacenados", Toast.LENGTH_SHORT).show();
                 limpiar();
-                 db.close();
+                db.close();
 
-                    }else
-                        { Toast.makeText(this,"llene los datos correctamentes",Toast.LENGTH_SHORT).show();}
-
-
+            }else
+            { Toast.makeText(this,"llene los datos correctamentes",Toast.LENGTH_SHORT).show();}
 
 
-            }
-            catch(SQLException e){Toast.makeText(this,"Error al guardar datos",Toast.LENGTH_SHORT).show();}
+
+
+        }
+        catch(SQLException e){Toast.makeText(this,"Error al guardar datos",Toast.LENGTH_SHORT).show();}
 
     }
 

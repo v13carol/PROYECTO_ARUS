@@ -6,4 +6,6 @@
     <color name="white">#FFFFFF</color>
     <color name="gris_oscuro">#6B6B6B</color>
     <color name="gris_claro">#888888</color>
+    <color name="naranja">#FFB46515</color>
+    <color name="rojo"> #FFD40801</color>
 </resources>

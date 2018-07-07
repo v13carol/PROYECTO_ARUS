@@ -9,7 +9,8 @@ public class formulario_data {
     private String cantidad;
     private String direccion;
 
-    public formulario_data(Integer id, String nombre, String num_cliente, String tipo, String telefono, String cantidad, String direccion) {
+    public formulario_data(Integer id, String nombre, String num_cliente, String tipo, String telefono, String cantidad, String direccion)
+    {
         this.id = id;
         this.nombre = nombre;
         this.num_cliente = num_cliente;

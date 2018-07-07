@@ -23,24 +23,30 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".formulario"
-            android:theme="@style/AppTheme.NoActionBar"/>
 
-        <activity android:name=".Zonahorarios.ZonaA.Zonas_Activity"
-                  android:theme = "@style/AppTheme.NoActionBar" />
+        <activity android:name="formulario"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
 
-        <activity android:name=".Zonahorarios.ZonaB.ZonaBActivity"
-            android:theme = "@style/AppTheme.NoActionBar" />
 
-        <activity android:name=".Zonahorarios.ZonaC.ZonaCActivity"
-            android:theme = "@style/AppTheme.NoActionBar" />
+        <activity  android:name = ".Zonahorarios.ZonaA.Zonas_Activity"
+            android:label ="@string/title_activity_zonas_"
+            android:theme ="@style/AppTheme.NoActionBar" ></activity>
 
-        <activity android:name=".Zonahorarios.ZonaD.ZonaDActivity"
-            android:theme = "@style/AppTheme.NoActionBar" />
+        <activity  android:name =".Zonahorarios.ZonaB.ZonaBActivity"
+            android:label ="@string/title_activity_zona_b"
+            android:theme ="@style/AppTheme.NoActionBar" ></activity>
 
-        <activity android:name=".Zonahorarios.ZonaE.ZonaEActivity"
-            android:theme = "@style/AppTheme.NoActionBar" />
+        <activity  android:name =".Zonahorarios.ZonaC.ZonaCActivity"
+            android:label ="@string/title_activity_zona_c"
+            android:theme ="@style/AppTheme.NoActionBar" ></activity>
 
-   </application>
+        <activity  android:name =".Zonahorarios.ZonaD.ZonaDActivity"
+            android:label = "@string/title_activity_zona_d"
+            android:theme = "@style/AppTheme.NoActionBar" ></activity>
+
+        <activity  android:name =".Zonahorarios.ZonaE.ZonaEActivity"
+            android:label ="@string/title_activity_zona_e"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+    </application>
 
 </manifest>

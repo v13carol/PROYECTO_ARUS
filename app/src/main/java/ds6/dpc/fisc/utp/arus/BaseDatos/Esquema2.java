@@ -1,12 +1,7 @@
 package ds6.dpc.fisc.utp.arus.BaseDatos;
-
 import android.provider.BaseColumns;
-
-
-public class Esquema2 {
-    public static abstract class Formulario implements BaseColumns
-    {
-        // Formulario
+public class Esquema2 implements BaseColumns {
+// Formulario
         public static final String TABLE_FORM = "Formulario";
         public static final String ID_F = "id_form";
         public static final String NOMBRE = "Nombre";
@@ -17,16 +12,13 @@ public class Esquema2 {
         public static final String DIRECCION = "Direccion";
 
 
-        public static final String CREAR_FORM = "CREATE TABLE "+
-                TABLE_FORM+" (" +
-                ID_F + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                NOMBRE + " TEXT NOT NULL , " +
-                NUM_CLI + "  TEXT NOT NULL ," +
-                TIPO +" TEXT NOT NULL , " +
-                TELEFONO + " TEXT NOT NULL ," +
-                CANTIDAD + " TEXT NOT NULL , " +
-                DIRECCION + " TEXT NOT NULL ); ";
-
-
-    }
+    public static final String CREAR_FORM = "CREATE TABLE "+
+                            TABLE_FORM+" (" +
+                            ID_F + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                            NOMBRE + " TEXT NOT NULL , " +
+                            NUM_CLI + "  TEXT NOT NULL ," +
+                            TIPO +" TEXT NOT NULL , " +
+                            TELEFONO + " TEXT NOT NULL ," +
+                            CANTIDAD + " TEXT NOT NULL , " +
+                            DIRECCION + " TEXT NOT NULL ); ";
 }

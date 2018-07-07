@@ -5,13 +5,12 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA2;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA3;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA4;
 import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema.Zona.CREAR_TABLA5;
-import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.Formulario.CREAR_FORM;
+import static ds6.dpc.fisc.utp.arus.BaseDatos.Esquema2.CREAR_FORM;
 
 /** Manejador de la BD*/
 public class DbHelper extends SQLiteOpenHelper
@@ -973,7 +972,7 @@ public class DbHelper extends SQLiteOpenHelper
          db.execSQL("DROP TABLE IF EXISTS "+ Esquema.Zona.TABLE_NAME3);
          db.execSQL("DROP TABLE IF EXISTS "+ Esquema.Zona.TABLE_NAME4);
          db.execSQL("DROP TABLE IF EXISTS "+ Esquema.Zona.TABLE_NAME5);
-         db.execSQL("DROP TABLE IF EXISTS "+ Esquema2.Formulario.TABLE_FORM );
+         db.execSQL("DROP TABLE IF EXISTS "+ Esquema2.TABLE_FORM );
 
           onCreate(db);
 
